@@ -27,6 +27,8 @@ Cada página debe mostrar **4 personajes**, organizados en **tarjetas visuales**
   - `Siguiente »`
 - Los botones "Anterior" y "Siguiente" deben desactivarse automáticamente cuando el usuario esté en la **primera** o **última página**, respectivamente.
 
+![](https://i.ibb.co/VY72hyfP/Screenshot-2025-04-08-at-10-05-04-PM.png)
+
 ### 2. Tarjetas de Personajes
 
 Cada tarjeta debe mostrar de forma clara:
