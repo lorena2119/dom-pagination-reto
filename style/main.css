@@ -96,7 +96,11 @@
     color: white;
     border-color: #6200ee;
   }
-
+.pagination button:first-child:active, .pagination button:last-child:active {
+    background-color: #c5c0cb;
+    color: white;
+    border:none
+}
   .pagination button:disabled {
     opacity: 0.5;
     cursor: not-allowed;

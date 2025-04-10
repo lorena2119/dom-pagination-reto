@@ -50,22 +50,23 @@ function paginacion(pagina){
     if (bton){
         bton.classList.add("active");
     }
-    for (let i = 1; i <= 5; i++){
-        const bton = document.getElementById(`${i}-button`);
-        bton.addEventListener('click', () => paginacion(i));
-    }
-    document.getElementById('prev-button').addEventListener('click', () => {
-        if (actpagina > 1){
-            paginacion(actpagina - 1);
-        }
-    });
     
-    document.getElementById('next-button').addEventListener('click', () => {
-        if (actpagina < 5){
-            paginacion(actpagina + 1);
-        }
-    });
 }
+for (let i = 1; i <= 5; i++){
+    const bton = document.getElementById(`${i}-button`);
+    bton.addEventListener('click', () => paginacion(i));
+}
+document.getElementById('prev-button').addEventListener('click', () => {
+    if (actpagina > 1){
+        paginacion(actpagina - 1);
+    }
+});
+
+document.getElementById('next-button').addEventListener('click', () => {
+    if (actpagina < 5){
+        paginacion(actpagina + 1);
+    }
+});
 
 
 obtenerPersonajes()
