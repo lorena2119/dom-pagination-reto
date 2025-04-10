@@ -58,13 +58,13 @@
     color: #333;
   }
 
-  .card-head {
+  .card-clan {
     font-size: 0.9rem;
     color: #666;
     margin-bottom: 0.5rem;
   }
 
-  .card-description {
+  .card-team {
     font-size: 0.85rem;
     color: #777;
     line-height: 1.4;
